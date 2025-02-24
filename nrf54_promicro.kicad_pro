@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -748,7 +748,9 @@
       "/USB_D_P": [
         "USB"
       ],
-      "Net-(U3-SW)": "Power"
+      "Net-(U3-SW)": [
+        "Power"
+      ]
     },
     "netclass_patterns": [
       {
@@ -801,7 +803,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "${KICAD8_TEMPLATE_DIR}/bb-designs_PCB.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://bb-designs_PCB.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
