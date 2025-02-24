@@ -1,0 +1,22 @@
+# Ignore kicad backups
+*-backups
+*auto_saved*
+*.bak
+*-table
+*-cache
+
+#Kicad lock files
+*.lck
+
+# Ignore build directory and all files within
+
+
+# Ignore environment variables file
+.env
+
+# Ignore IDE-specific files
+
+
+# Ignore files ending with .md (markdown files) except README.md
+*.md
+!README.md
