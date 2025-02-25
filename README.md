@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Project: nrf54_promicro </br> (an nRF54L1x Pro Micro inspired development board) </h1>
+<h1 align="center">Welcome to Project: nrf54_promicro </br> (nRF54L1x Pro Micro inspired development board) </h1>
 <div align="center">
   <a href="https://github.com/brendose/nrf54_promicro"></a>
   
