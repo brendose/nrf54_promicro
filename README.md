@@ -11,10 +11,13 @@
 </div>
 
 # Introduction
-The <b>nrf54_promicro</b> project is a Pro Micro inspired development board for the nRF54L15/L10 containing Bluetooth RFFE and battery charging, developed in KiCad 9. 
-The purpose of this project is to provide a development platform for keyboard designs. Why? Because Bluetooth based keyboard designs require decent battery life.
-The nRF52840 power draw limits the battery life of most keyboard based projects, however, when moving to the nRF54 the power draw can be minimized to a under 100uA/MHz. 
-Further steps have been taken in the design to ensure minimal power draw can be achieve, including the use of high efficiency switching power supplies, low quiescent current (Iq) load switches and RF antenna tuning.
+The <b>nrf54_promicro</b> project revolutionizes nRF52840 based keyboard projects by utilizing the Nordic Semiconductors nRF54L10/L15 Bluetooth transceiver, achieving sub-100uA/MHz power draw!
+
+We're challenging the status quo of limited wireless keyboard battery life with the nRF54L15/L10, achieving unprecedented power efficiency.Why? Because Bluetooth based keyboard designs require decent battery life.
+The nRF52840 power draw limits the battery life of most keyboard based projects, however, moving to the nRF54 the power draw can be minimized to a under 100uA/MHz. This Pro Micro-inspired board, designed in KiCad 9, 
+integrates optimized power circuitry such as; the use of a high efficiency switching power supply, carefully selected low quiescent current (Iq) load switch and meticulous RF antenna tuning, wasting no power and
+offering a development platform for keyboards that redefines what it means to have "good battery life".
+
 
 The board contains:
 
