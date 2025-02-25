@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,100 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|134840000|94120000|21db118b-89f2-4a93-8504-291dd17fdc0c|2232e739-b327-42a0-838f-5f6d93e41430",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|135620000|92980000|62522b59-46c2-4e98-9a2d-fa732ab4401d|bec44b73-a09a-4984-be23-2b0e57a0ef20",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|135620000|93680000|da1e25b9-09c8-4f20-abc0-31a7e8534f56|afb50f85-d5fd-4f28-bb39-52881878e309",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|135625000|94380000|d3b5ca8c-2fc8-4be6-8685-b2f74f4b304a|e92d3dee-befb-4358-8a47-096ba63eb79b",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|136510001|90650000|c1c20274-9f16-4c40-90f0-f7b5a1b590c8|46107a03-6026-4fdf-ba52-db80c714e060",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|136809999|89650000|46107a03-6026-4fdf-ba52-db80c714e060|8bb087fe-c856-4f0d-aaf8-f8cd96833e40",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|136809999|90650000|46107a03-6026-4fdf-ba52-db80c714e060|8746990c-3070-4a38-a1fb-a0e5d1f3687a",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|136859999|90300000|6fae3bde-95f0-425f-819e-2d6a114d6ecb|86ffe172-b165-4390-8f4b-11fa680c6253",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|136859999|90300000|6fae3bde-95f0-425f-819e-2d6a114d6ecb|8746990c-3070-4a38-a1fb-a0e5d1f3687a",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|136859999|90769999|6fae3bde-95f0-425f-819e-2d6a114d6ecb|bb234e53-5a99-4eb9-b6cd-40871ecaedf6",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|136859999|90920000|6fae3bde-95f0-425f-819e-2d6a114d6ecb|ef3b695e-61e1-4a65-be2e-196144159715",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|136909999|90650000|46107a03-6026-4fdf-ba52-db80c714e060|eb9e6a3f-6a4c-4220-a00b-ea295bfd17c3",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|136970000|91990000|23a5eff0-32ad-4ce3-99b9-4b0a269fad3c|2788697c-43e8-4128-a170-63c0a4e1b17d",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|137030000|92980000|99e9aff2-d2bc-40cf-bcfc-12cab3710943|55c80fb6-5c6b-4e1e-a7a3-86e8ab42ec0f",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|137360000|73110000|154d990e-afa7-410b-95a3-38dc8d2e0cd2|63b8d410-7792-4c3d-b437-2c1a6da3e5e7",
+          "Clearance within component - no issue"
+        ],
+        [
+          "clearance|137470000|92810000|22678a37-5db0-42a0-8f39-103f81e42ad7|99e9aff2-d2bc-40cf-bcfc-12cab3710943",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "clearance|137470000|92810000|279ec1f3-dbeb-4688-9790-becd014165f8|99e9aff2-d2bc-40cf-bcfc-12cab3710943",
+          "RF Net Clearance Setup - No concern"
+        ],
+        [
+          "courtyards_overlap|131510000|64655000|4d9e048e-1432-4fe2-8dc7-c8d465078fd3|c2c177d0-30d2-4768-bfdc-3bc675950c64",
+          "No Assembly Concern"
+        ],
+        [
+          "courtyards_overlap|132915390|91073824|81c7bcd1-01bc-4994-b9a1-956e43a0cb70|d5486621-f6da-41bb-9149-f80fecac6483",
+          "TP - no assembly concern"
+        ],
+        [
+          "courtyards_overlap|133381965|88218961|3dde18c1-5cd8-4f02-8176-a4c2c1c1a626|658961ec-1029-4a46-a4f3-283ff0fa7d9f",
+          "TP - no assembly concern"
+        ],
+        [
+          "courtyards_overlap|133381965|89751461|658961ec-1029-4a46-a4f3-283ff0fa7d9f|d5486621-f6da-41bb-9149-f80fecac6483",
+          "TP - no assembly concern"
+        ],
+        [
+          "courtyards_overlap|133386458|92811227|81c7bcd1-01bc-4994-b9a1-956e43a0cb70|e3c8744b-a225-4857-bb97-02efcdea7a27",
+          "TP - no assembly concern"
+        ],
+        [
+          "courtyards_overlap|143725000|64655000|bbdded7e-57f8-4f65-a0c8-756212381518|c2c177d0-30d2-4768-bfdc-3bc675950c64",
+          "No Assembly Concern"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -66,7 +159,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -127,18 +220,18 @@
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.05,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -534,7 +627,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -552,7 +644,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -570,7 +661,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -588,7 +678,6 @@
         "bus_width": 12,
         "clearance": 0.3,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -606,7 +695,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -624,7 +712,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.1,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.102,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -642,7 +729,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -660,7 +746,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -678,7 +763,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -696,7 +780,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
