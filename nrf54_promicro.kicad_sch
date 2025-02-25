@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "nRF54L15 ProMicro")
-		(date "2025-02-20")
+		(date "2025-02-24")
 		(rev "Proto")
 		(company "BB Designs")
 	)
@@ -3823,7 +3823,6 @@
 					(alternate "" input line)
 					(alternate "AIN0" unspecified line)
 					(alternate "ASO[0]" unspecified line)
-					(alternate "" input line)
 				)
 				(pin unspecified line
 					(at 53.34 -27.94 180)
@@ -4121,7 +4120,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "QSPI_D3" unspecified line)
 					(alternate "SPIM_DCX" unspecified line)
 					(alternate "UARTE_RXD" unspecified line)
@@ -4144,7 +4142,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "QSPI_SCK" unspecified line)
 					(alternate "SPIM_SCK" unspecified line)
 					(alternate "SPIS_SCK" unspecified line)
@@ -4166,7 +4163,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "" input line)
 					(alternate "QSPI_D0" unspecified line)
 					(alternate "SPIM_SDO" unspecified line)
@@ -4192,7 +4188,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "QSPI_D2" unspecified line)
 				)
 				(pin unspecified line
@@ -4212,7 +4207,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "" input line)
 					(alternate "QSPI D1" unspecified line)
 					(alternate "SPIM SDI" unspecified line)
@@ -4237,7 +4231,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "QSPI CS" unspecified line)
 					(alternate "SPIM CS" unspecified line)
 					(alternate "UARTE RTS" unspecified line)
@@ -4259,7 +4252,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "" input line)
 					(alternate "SPIM SCK" unspecified line)
 					(alternate "SPIS SCK" unspecified line)
@@ -4329,7 +4321,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "SPIM SDI" unspecified line)
 					(alternate "SPIS SDI" unspecified line)
 					(alternate "TRACEDATA[2]" unspecified line)
@@ -4352,7 +4343,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "" input line)
 					(alternate "SPIM CS" unspecified line)
 					(alternate "TRACEDATA[3]" unspecified line)
@@ -4601,6 +4591,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NOTE: \nJumper for charge current selection"
+		(exclude_from_sim no)
+		(at 44.45 187.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08d1c43e-cd9d-4e9a-bec0-3e8a4ecd843b")
+	)
+	(text "Proto"
+		(exclude_from_sim no)
+		(at 566.166 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f4c5c8f-89c6-408b-a14c-5eadc85fc6c4")
+	)
 	(text "Note: VSS_PA to GND PAD ONLY!"
 		(exclude_from_sim no)
 		(at 368.808 197.866 0)
@@ -4621,9 +4632,29 @@
 		)
 		(uuid "4452947b-cce6-4c56-a4a1-e045c96204a0")
 	)
+	(text "02-24-2025"
+		(exclude_from_sim no)
+		(at 493.776 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "623d2d0c-0a7c-44de-85ca-f9c3536d9343")
+	)
+	(text "Initial Release"
+		(exclude_from_sim no)
+		(at 527.05 24.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "673a886a-93f3-44ba-ade8-ab0c17238a13")
+	)
 	(text "BLE MCU"
 		(exclude_from_sim no)
-		(at 419.1 93.726 0)
+		(at 421.894 75.946 0)
 		(effects
 			(font
 				(size 5 5)

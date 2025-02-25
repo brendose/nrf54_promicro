@@ -2,6 +2,8 @@
 <div align="center">
   <a href="https://github.com/brendose/nrf54_promicro"></a>
   
+  ![Alt text](/images/nrf54_promicro.png?raw=true)
+  
 <a href="#introduction">Introduction</a> &nbsp;&bull;&nbsp;
 <a href="#directory">Directory</a> &nbsp;&bull;&nbsp;
 <a href="#documentation">Documentation</a> &nbsp;&bull;&nbsp;
@@ -27,7 +29,11 @@ The board contains:
 ### Projects top-level directory
 
     .
-    ├── libs                     # local library of components used in the project
+    ├── bom                      # Bill of Materials
+    ├── images                   # Images used on this GitHub page
+    ├── libs                     # Local component library
+    ├── plots                    # Assembly drawings of the design
+    ├── schematics               # Schematics of the design      
     └── README.md
 
 ## Documentation

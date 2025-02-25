@@ -978,7 +978,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "kicad-embed://bb-designs_A2.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
