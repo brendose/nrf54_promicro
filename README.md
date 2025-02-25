@@ -26,7 +26,7 @@ The board contains:
 - 2.45GHz Chip Antenna supporting Bluetooth LE
 - Texas Instruments BQ24075 battery charger
 - 2x 13 pin GPIO headers 
-- USB-C connector, with bit-banged USB 1.1
+- USB-C connector, with bit-banged USB interface
 - Charge Status indicator LED
 - Bluetooth Status indicator LED
 
