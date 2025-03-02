@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -88,19 +88,11 @@
           "RF Net Clearance Setup - No concern"
         ],
         [
-          "clearance|136859999|90300000|6fae3bde-95f0-425f-819e-2d6a114d6ecb|86ffe172-b165-4390-8f4b-11fa680c6253",
-          "RF Net Clearance Setup - No concern"
-        ],
-        [
           "clearance|136859999|90300000|6fae3bde-95f0-425f-819e-2d6a114d6ecb|8746990c-3070-4a38-a1fb-a0e5d1f3687a",
           "RF Net Clearance Setup - No concern"
         ],
         [
           "clearance|136859999|90769999|6fae3bde-95f0-425f-819e-2d6a114d6ecb|bb234e53-5a99-4eb9-b6cd-40871ecaedf6",
-          "RF Net Clearance Setup - No concern"
-        ],
-        [
-          "clearance|136859999|90920000|6fae3bde-95f0-425f-819e-2d6a114d6ecb|ef3b695e-61e1-4a65-be2e-196144159715",
           "RF Net Clearance Setup - No concern"
         ],
         [
@@ -118,14 +110,6 @@
         [
           "clearance|137360000|73110000|154d990e-afa7-410b-95a3-38dc8d2e0cd2|63b8d410-7792-4c3d-b437-2c1a6da3e5e7",
           "Clearance within component - no issue"
-        ],
-        [
-          "clearance|137470000|92810000|22678a37-5db0-42a0-8f39-103f81e42ad7|99e9aff2-d2bc-40cf-bcfc-12cab3710943",
-          "RF Net Clearance Setup - No concern"
-        ],
-        [
-          "clearance|137470000|92810000|279ec1f3-dbeb-4688-9790-becd014165f8|99e9aff2-d2bc-40cf-bcfc-12cab3710943",
-          "RF Net Clearance Setup - No concern"
         ],
         [
           "courtyards_overlap|131510000|64655000|4d9e048e-1432-4fe2-8dc7-c8d465078fd3|c2c177d0-30d2-4768-bfdc-3bc675950c64",
