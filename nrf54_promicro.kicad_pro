@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -61,67 +61,67 @@
       "drc_exclusions": [
         [
           "clearance|135280000|94060000|d3b5ca8c-2fc8-4be6-8685-b2f74f4b304a|e92d3dee-befb-4358-8a47-096ba63eb79b",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|135310000|91950000|da1e25b9-09c8-4f20-abc0-31a7e8534f56|afb50f85-d5fd-4f28-bb39-52881878e309",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|135540000|93290000|21db118b-89f2-4a93-8504-291dd17fdc0c|2232e739-b327-42a0-838f-5f6d93e41430",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
+        ],
+        [
+          "clearance|135880000|80790000|154d990e-afa7-410b-95a3-38dc8d2e0cd2|63b8d410-7792-4c3d-b437-2c1a6da3e5e7",
+          "Clearance Within Footprint"
         ],
         [
           "clearance|136330000|92150000|62522b59-46c2-4e98-9a2d-fa732ab4401d|bec44b73-a09a-4984-be23-2b0e57a0ef20",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
-          "clearance|136460001|89650000|18ee5554-b2cf-463f-adcd-95ed7e745ce7|46107a03-6026-4fdf-ba52-db80c714e060",
-          "RF Clearance Within Footprint - No issues"
+          "clearance|136460001|89650000|18ee5554-b2cf-463f-adcd-95ed7e745ce7|9f877c5a-e77c-4c9c-b2f3-f9d96d6b6841",
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|136510001|90000000|c1c20274-9f16-4c40-90f0-f7b5a1b590c8|46107a03-6026-4fdf-ba52-db80c714e060",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|136809999|89000000|46107a03-6026-4fdf-ba52-db80c714e060|8bb087fe-c856-4f0d-aaf8-f8cd96833e40",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|136809999|90000000|46107a03-6026-4fdf-ba52-db80c714e060|97519e9d-1a9d-4eba-ad19-878b6851a9fb",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|136859999|89650000|9f877c5a-e77c-4c9c-b2f3-f9d96d6b6841|c1c20274-9f16-4c40-90f0-f7b5a1b590c8",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
-          "clearance|136860000|90000000|4867c19e-3669-41d2-9703-1b87a140f85a|c1c20274-9f16-4c40-90f0-f7b5a1b590c8",
-          "RF Clearance Within Footprint - No issues"
+          "clearance|136860000|89650001|4867c19e-3669-41d2-9703-1b87a140f85a|c6dd60be-e3bb-4ae5-9a41-d948c583830a",
+          "RF Clearance Within Footprint"
+        ],
+        [
+          "clearance|136860000|89650001|9f877c5a-e77c-4c9c-b2f3-f9d96d6b6841|c6dd60be-e3bb-4ae5-9a41-d948c583830a",
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|136909999|90000000|46107a03-6026-4fdf-ba52-db80c714e060|b1b1ebb6-7b8b-43e8-8b91-c70b868c31d9",
-          "RF Clearance Within Footprint - No issues"
-        ],
-        [
-          "clearance|136909999|90000000|46107a03-6026-4fdf-ba52-db80c714e060|c6dd60be-e3bb-4ae5-9a41-d948c583830a",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|136909999|90000000|46107a03-6026-4fdf-ba52-db80c714e060|eb9e6a3f-6a4c-4220-a00b-ea295bfd17c3",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|136960000|91190000|23a5eff0-32ad-4ce3-99b9-4b0a269fad3c|2788697c-43e8-4128-a170-63c0a4e1b17d",
-          "RF Clearance Within Footprint - No issues"
-        ],
-        [
-          "clearance|137360000|73110000|154d990e-afa7-410b-95a3-38dc8d2e0cd2|63b8d410-7792-4c3d-b437-2c1a6da3e5e7",
-          "Clearance within component - no issue"
+          "RF Clearance Within Footprint"
         ],
         [
           "clearance|137670000|91270000|99e9aff2-d2bc-40cf-bcfc-12cab3710943|55c80fb6-5c6b-4e1e-a7a3-86e8ab42ec0f",
-          "RF Clearance Within Footprint - No issues"
+          "RF Clearance Within Footprint"
         ],
         [
           "copper_edge_clearance|132280000|66250000|6f1c4b1c-ecd2-4781-a4b6-3f6787485da7|b885cd62-3e26-4583-bed4-d76cbc585262",
@@ -136,11 +136,19 @@
           ""
         ],
         [
+          "copper_edge_clearance|134700000|70950000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|5ae6d06e-6e50-409d-add1-514b67ab44fa",
+          ""
+        ],
+        [
+          "copper_edge_clearance|134700000|71050000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|b16ff510-c823-45b5-a19c-c350dca5a86a",
+          ""
+        ],
+        [
           "copper_edge_clearance|135200000|70400000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|9e9f1b28-17e0-4bcf-9413-34a223f75145",
           ""
         ],
         [
-          "copper_edge_clearance|135300000|70860000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|f68180e0-6165-4788-ad22-d8c604c94ca0",
+          "copper_edge_clearance|135350000|70860000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|f68180e0-6165-4788-ad22-d8c604c94ca0",
           ""
         ],
         [
@@ -160,7 +168,15 @@
           ""
         ],
         [
+          "copper_edge_clearance|137150000|70950000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|343c4644-6046-4bd4-902f-83bf7fb1eb4f",
+          ""
+        ],
+        [
           "copper_edge_clearance|137500000|70400000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|d6b11c47-21f1-4685-a494-72192f8a0009",
+          ""
+        ],
+        [
+          "copper_edge_clearance|137650000|70950000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|002f5493-5921-4dcb-b460-b9090c7e3e23",
           ""
         ],
         [
@@ -168,15 +184,7 @@
           ""
         ],
         [
-          "copper_edge_clearance|138150000|70950000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|aaaa909d-f9f9-4568-bc93-91aa53861bdd",
-          ""
-        ],
-        [
           "copper_edge_clearance|138500000|70400000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|cdfbce74-6ed4-483d-a091-c4767a50794f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|138650000|70950000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|8a6ea0cf-c84a-4c92-8e63-7aaa04ff2088",
           ""
         ],
         [
@@ -192,11 +200,11 @@
           ""
         ],
         [
-          "copper_edge_clearance|140100000|70870000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|c8195b80-ac80-46ae-8bb9-570e7ea386ae",
+          "copper_edge_clearance|140140000|70870000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|c8195b80-ac80-46ae-8bb9-570e7ea386ae",
           ""
         ],
         [
-          "copper_edge_clearance|140300000|70950000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|791c88f2-77b1-47ae-8701-979920e5bea1",
+          "copper_edge_clearance|140300000|70950000|1a15e11f-424b-4075-a0e3-f7f5f301f39d|94c0dfd2-93e0-4e6d-b0f1-56c940f3f068",
           ""
         ],
         [
@@ -213,27 +221,27 @@
         ],
         [
           "courtyards_overlap|131510000|64655000|4d9e048e-1432-4fe2-8dc7-c8d465078fd3|c2c177d0-30d2-4768-bfdc-3bc675950c64",
-          "No Assembly Concern"
+          ""
         ],
         [
           "courtyards_overlap|132915390|91073824|81c7bcd1-01bc-4994-b9a1-956e43a0cb70|d5486621-f6da-41bb-9149-f80fecac6483",
-          "TP - no assembly concern"
+          ""
         ],
         [
           "courtyards_overlap|133381965|88218961|3dde18c1-5cd8-4f02-8176-a4c2c1c1a626|658961ec-1029-4a46-a4f3-283ff0fa7d9f",
-          "TP - no assembly concern"
+          ""
         ],
         [
           "courtyards_overlap|133381965|89751461|658961ec-1029-4a46-a4f3-283ff0fa7d9f|d5486621-f6da-41bb-9149-f80fecac6483",
-          "TP - no assembly concern"
+          ""
         ],
         [
           "courtyards_overlap|133386458|92811227|81c7bcd1-01bc-4994-b9a1-956e43a0cb70|e3c8744b-a225-4857-bb97-02efcdea7a27",
-          "TP - no assembly concern"
+          ""
         ],
         [
           "courtyards_overlap|143725000|64655000|bbdded7e-57f8-4f65-a0c8-756212381518|c2c177d0-30d2-4768-bfdc-3bc675950c64",
-          "No Assembly Concern"
+          ""
         ],
         [
           "lib_footprint_issues|137900000|66605750|c2c177d0-30d2-4768-bfdc-3bc675950c64|00000000-0000-0000-0000-000000000000",
@@ -249,18 +257,22 @@
         ],
         [
           "lib_footprint_mismatch|136602500|97010000|56923dd9-a5f4-4563-b6eb-65dbc2351692|00000000-0000-0000-0000-000000000000",
-          "Changed SilkScreen Layer"
+          ""
         ],
         [
           "lib_footprint_mismatch|136660000|86700000|0fde4cde-3b09-4935-a7e5-dd503a5c88b4|00000000-0000-0000-0000-000000000000",
-          "Changed 3D package"
+          ""
         ],
         [
           "lib_footprint_mismatch|141670000|79890000|42202741-94bf-4d6d-beb3-eb4f7bce9db7|00000000-0000-0000-0000-000000000000",
-          "Changed SilkScreen Layer"
+          ""
         ],
         [
           "lib_footprint_mismatch|145520000|81675000|bbdded7e-57f8-4f65-a0c8-756212381518|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "mirrored_text_on_front_layer|143860000|97180000|2a66dde0-ebf8-43d7-b3a8-a606a2194743|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -270,6 +282,10 @@
         [
           "silk_overlap|142433663|95049196|12e921ec-ab18-4330-bf2e-e2133dc51610|bf31c28c-7b2b-4c81-b9a0-8ea4e9ac9bd6",
           "Part of Logo"
+        ],
+        [
+          "silk_overlap|143199618|97472174|2a66dde0-ebf8-43d7-b3a8-a606a2194743|70044bc7-c88c-4142-9b0d-9649c53c0c6b",
+          ""
         ]
       ],
       "meta": {
@@ -854,7 +870,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(152, 255, 210)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -922,7 +938,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "VSYS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 182, 231)",
         "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
